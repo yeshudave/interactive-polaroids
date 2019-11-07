@@ -33,7 +33,7 @@ body {
   position: absolute;
 }
 
-.polaroid:nth-child() {
+.polaroid:nth-child(1) {
   top: 6em;
   left: 13em;
   transform: rotate(-10deg);
@@ -41,19 +41,18 @@ body {
 
 .polaroid:nth-child(2) {
   top: 9em;
-  left: 19em;
+  left: 18em;
   transform: rotate(10deg);
-  z-index: 4;
 }
 
 .polaroid:nth-child(3) {
   top: 6em;
-  left: 23em;
+  left: 24em;
   transform: rotate(30deg);
 }
 
-.polaroid: hover {
+.polaroid:hover {
   transform: rotate(0deg);
   box-shadow: 3px 10px 15px;
-  z-index: 4;
+  z-index: 5;
 }
